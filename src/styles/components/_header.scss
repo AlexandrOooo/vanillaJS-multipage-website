@@ -1,0 +1,44 @@
+.header {
+    max-width: 1220px;
+    margin: 0 auto;
+    height: 75px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    position: relative;
+    // .header__logo
+
+    &__logo {
+    }
+
+    // .header__menu
+
+    &__menu {
+    }
+
+    // .header__order
+
+    &__order {
+        height: 125px;
+        width: 125px;
+        background: #f4d059;
+        cursor: pointer;
+        align-self: flex-start;
+    }
+
+    // .header__order-text
+
+    &__order-text {
+        padding: 46px 23px;
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 16px;
+        span {
+            font-weight: 700;
+            font-size: 15px;
+        }
+    }
+}

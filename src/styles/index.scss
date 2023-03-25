@@ -1,0 +1,21 @@
+@import "./libs/normalize";
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+@import "./components/all";
+.wrapper {
+    width: 1440px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+* {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #00204a;
+}
+main {
+    width: 1220px;
+    margin: 0 auto;
+}

@@ -1,0 +1,28 @@
+.our-design {
+    // .our-design__title
+
+    &__title {
+        font-weight: 300;
+        font-size: 46px;
+        line-height: 45px;
+        margin-bottom: 32px;
+    }
+
+    // .our-design__buttons
+
+    &__buttons {
+        display: flex;
+        margin-bottom: 54px;
+    }
+
+    // .our-design__garden-room
+
+    &__garden-room {
+        margin-right: 14px;
+    }
+
+    // .our-design__modular
+
+    &__modular {
+    }
+}

@@ -1,0 +1,61 @@
+.catalogue {
+    position: relative;
+    border: 1px solid #f5f5f5;
+    box-shadow: 0px 0px 10px 0px #00000040;
+
+    // .catalogue__content
+    &__content {
+        width: 380px;
+        margin-left: 44px;
+        margin-top: 56px;
+        margin-bottom: 35px;
+        z-index: 1;
+        position: relative;
+    }
+
+    // .catalogue__title
+
+    &__title {
+        font-weight: 300;
+        font-size: 46px;
+        line-height: 45px;
+        margin-bottom: 13px;
+    }
+
+    // .catalogue__text
+
+    &__text {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 33px;
+    }
+
+    // .catalogue__button
+
+    &__button {
+    }
+
+    // .catalogue__background
+
+    &__background {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    // .catalogue__pdf
+
+    &__pdf {
+        position: absolute;
+        top: 113px;
+        right: 298px;
+        width: 63.5px;
+        height: 63.5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background: #f4d059;
+    }
+}

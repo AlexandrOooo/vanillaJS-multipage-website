@@ -1,0 +1,67 @@
+.modular-house {
+    display: flex;
+    // .modular-house__content
+
+    &__content {
+        margin-right: 77px;
+    }
+
+    // .modular-house__title
+
+    &__title {
+        font-weight: 300;
+        font-size: 36px;
+        line-height: 45px;
+        margin-bottom: 55px;
+    }
+
+    // .modular-house__advantages
+
+    &__advantages {
+        padding-left: 46px;
+        display: flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+        justify-content: space-between;
+    }
+
+    // .modular-house__advantage
+
+    &__advantage {
+        width: 205px;
+        position: relative;
+        margin-bottom: 57px;
+        &::before {
+            content: url("../img/list-icon.svg");
+            position: absolute;
+            left: -46px;
+            top: 0;
+            width: 26px;
+            height: 30px;
+        }
+    }
+
+    // .modular-house__subtitle
+
+    &__subtitle {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+        margin-bottom: 13px;
+        letter-spacing: 3.6px;
+        text-transform: uppercase;
+    }
+
+    // .modular-house__text
+
+    &__text {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    // .modular-house__image
+
+    &__image {
+    }
+}

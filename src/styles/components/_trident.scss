@@ -1,0 +1,74 @@
+.trident {
+    display: flex;
+    position: relative;
+    // .trident__left
+
+    &__left {
+    }
+
+    // .trident__back-image
+
+    &__back-image {
+        background-image: url(../img/trident1.jpg);
+        width: 500px;
+        height: 330px;
+        position: relative;
+        left: 0;
+        top: 0;
+        div {
+            backdrop-filter: blur(3px);
+            background-color: rgba(255, 255, 255, 0.3);
+            height: 100%;
+        }
+    }
+    &__overlay {
+        position: absolute;
+        display: flex;
+        align-items: flex-end;
+        left: 44.5px;
+        top: 30px;
+    }
+    // .trident__front-image
+
+    &__front-image {
+    }
+
+    // .trident__button
+
+    &__button {
+    }
+
+    // .trident__right
+
+    &__right {
+        background: #00204a;
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 307px;
+    }
+
+    &__content {
+        width: 434px;
+    }
+    // .trident__title
+
+    &__title {
+        font-weight: 300;
+        font-size: 46px;
+        line-height: 45px;
+        color: white;
+        margin-bottom: 23px;
+    }
+
+    // .trident__text
+
+    &__text {
+        width: 380px;
+        font-size: 16px;
+        line-height: 27px;
+        font-weight: 300;
+        color: white;
+    }
+}

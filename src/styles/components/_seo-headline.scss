@@ -1,0 +1,41 @@
+.seo-headline {
+    // .seo-headline__title
+
+    &__title {
+        font-weight: 300;
+        font-size: 36px;
+        line-height: 45px;
+    }
+
+    // .seo-headline__subtitle
+
+    &__subtitle {
+        font-size: 30px;
+        line-height: 45px;
+        margin-bottom: 26px;
+    }
+
+    // .seo-headline__text
+
+    &__text {
+        font-weight: 300;
+        line-height: 27px;
+        width: 1115px;
+        margin-bottom: 25px;
+    }
+
+    // .seo-headline__button
+
+    &__button {
+        font-weight: 500;
+        cursor: pointer;
+        line-height: 30px;
+    }
+    hr {
+        border: none;
+        border-top: 1px dashed #00142f;
+
+        height: 1px;
+        width: 100%;
+    }
+}

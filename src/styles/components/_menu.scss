@@ -1,0 +1,20 @@
+.menu {
+    // .menu__item
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    &__item {
+        font-size: 20px;
+        color: black;
+        a {
+            padding: 25px 27px;
+            cursor: pointer;
+            span {
+            }
+        }
+    }
+    // .main__our-design
+
+    &__our-design {
+    }
+}

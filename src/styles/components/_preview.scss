@@ -1,0 +1,26 @@
+.preview {
+    height: 575px;
+    background: linear-gradient(
+            46.26deg,
+            rgba(0, 32, 74, 0.48) 35.4%,
+            rgba(0, 32, 74, 0) 68.29%
+        ),
+        url("../img/preview.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1220px;
+    position: relative;
+
+    // .preview__text
+
+    &__text {
+        position: absolute;
+        left: 33px;
+        bottom: 120px;
+        max-width: 460px;
+        font-weight: 500;
+        font-size: 37px;
+        line-height: 37px;
+        color: white;
+    }
+}
